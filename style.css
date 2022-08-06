@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+/* background image styling */
+.top-container {
+  background-image: url("img/1st img.png");
+  width: 100%;
+  height: 480px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+/* both button layout */
+.click {
+  display: flex;
+  justify-content: right;
+  margin-top: 29px;
+  margin-right: 115px;
+}
+
+/* button one styling */
+.b1 {
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 12px 25px 11px 0px;
+  font-weight: bold;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+}
+
+/* button two styling */
+.b2 {
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 12px 15px 11px 14px;
+  font-weight: bold;
+  opacity: 1;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* select layout */
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* select layout1 */
+.location {
+  font-weight: bold;
+  color: #192f60;
+  font-size: 15px;
+  background: white;
+  position: absolute;
+  top: 329px;
+  left: 380px;
+  width: 245px;
+  height: 60px;
+  text-align: left;
+  opacity: 1;
+  padding: 21px 21px 18px;
+}
+
+/* select layout2 */
+.location2 {
+  font-weight: bold;
+  color: #192f60;
+  font-size: 15px;
+  background: white;
+  position: absolute;
+  top: 329px;
+  left: 650px;
+  width: 477px;
+  height: 60px;
+  text-align: left;
+  opacity: 1;
+  padding: 21px 21px 18px;
+}
+
+/* logo styling */
+.logo {
+  padding: 5px 5px 5px 5px;
+  font-size: 100px;
+  opacity: 100%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #707070;
+  border-radius: 500px;
+  color: red;
+  position: absolute;
+  top: 81px;
+  left: 680px;
+  width: 147px;
+  height: 147px;
+  opacity: 1;
+}
+
+/* heading on background */
+.zeroh {
+  position: absolute;
+  display: flex;
+  margin-top: 10px;
+  top: 250px;
+  right: 302px;
+  bottom: 179px;
+  left: 380px;
+  font-size: 36px;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* styling after the top image */
+.head {
+  margin-left: 200px;
+}
+
+.firsth {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  color: #192f60;
+  font-family: sans-serif;
+  margin-bottom: 7px;
+}
+
+.firstp {
+  font-size: 18px;
+  color: #8c96ab;
+  font-family: sans-serif;
+  margin-bottom: 33px;
+}
+
+/* first container */
+.m1container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  width: 100%;
+  padding: 0 5px 0 30px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/* second container */
+.m2container {
+  flex-wrap: wrap;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 0 5px 0 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* card layout */
+.card {
+  display: flex;
+  width: 360px;
+  height: 160px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* details like image and data */
+.details {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding: 5px 5px 5px 5px;
+}
+
+/* heading inside detail */
+.mh2 {
+  font-size: 18px;
+  color: #192f60;
+  font-family: sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 4px;
+  margin-left: 29px;
+}
+
+/* paragraph inside detail */
+.mp2 {
+  font-size: 14px;
+  color: #8c96ab;
+  font-family: sans-serif;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 29px;
+}
